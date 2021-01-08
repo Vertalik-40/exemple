@@ -1,0 +1,15 @@
+body
+    {
+    background:lightblue;
+    }
+
+
+#fon
+    {
+    background: rgba(50, 50, 50, 0.7) url(../images/zoomin.png) no-repeat center center;
+    width: 145px; height: 200px;
+    display:inline-block;
+    line-height: 200px;
+    text-align: center;
+    }
+

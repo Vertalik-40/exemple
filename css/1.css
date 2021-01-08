@@ -1,0 +1,79 @@
+body {
+    font: 75%/120% Arial, Tahoma, sans-serif;
+    width: 1050px; margin: 30px auto;
+    background: #666 url(../images/body-bg2.png);
+    }
+
+.hide {
+	
+	display: none;
+}
+
+#largeImg{
+    border: solid #666 2px; padding: 4px;
+    background: #fff;
+}
+#img-container {
+    margin: 0 10px;
+	background-image:url(../images/loader2.gif);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+    width: 438px;
+    height: 642px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.5);
+}
+#description{
+	width: 438px;
+    height: 642px;
+    background: rgba(24,24,24,0.7);
+	position:absolute;
+	top:0px;
+	left:10px;
+    display:none; 
+	text-align:center;
+	padding-top: 30%;
+	color:#fff;
+}
+.film-content {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+.film-content ul{
+    list-style:none;
+}
+.content {
+    overflow: hidden;
+    position: relative;
+	width: 456px;
+    height: 642px;
+}
+
+#largeImg { height: 630px;}
+
+.thumbs { width: 156px; float: left; margin: 0 20px 0 10px; position: relative; }
+   
+.thumbs a {display: inline-block; position: relative; }
+
+.thumbs a span.view{
+    background: rgba(24,24,24,0.5) url(../images/zoomin.png) 50% 50% no-repeat;
+    position: absolute;
+    width: 157px;
+    height: 212px;
+    top: 0px;
+    left: 0px;
+	
+}
+
+.thumbs a img {
+    width: 145px; height: 200px;
+	background: #fff;  
+	border: solid #666 2px; 
+	padding: 4px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.5);
+}
+
+.thumbs a img:hover, .thumbs img.active {border-color: #031f7c; background: #518af5; }
